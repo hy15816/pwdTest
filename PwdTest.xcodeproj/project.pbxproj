@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		77BD10FEF603262CA8488986 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 170FD6917A64160C11F68FA5 /* libPods.a */; };
+		B4144DFB1D1E3CAE0074D3E9 /* HSCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B4144DFA1D1E3CAE0074D3E9 /* HSCButton.m */; };
 		B425F0251CF6A532004159CB /* LSView.m in Sources */ = {isa = PBXBuildFile; fileRef = B425F0241CF6A532004159CB /* LSView.m */; };
 		B46DD2431CE82D9F000238E5 /* LSRotateGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = B46DD2421CE82D9F000238E5 /* LSRotateGestureRecognizer.m */; };
 		B46DD2491CE83FBE000238E5 /* TestSWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B46DD2481CE83FBE000238E5 /* TestSWTableViewController.m */; };
@@ -50,6 +51,7 @@
 		B4C2EFEF1CE32A590095AD07 /* TestRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C2EFEE1CE32A590095AD07 /* TestRootViewController.m */; };
 		B4C2EFF21CE32A770095AD07 /* TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C2EFF11CE32A770095AD07 /* TargetViewController.m */; };
 		B4C2EFF81CE32D7E0095AD07 /* XWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C2EFF71CE32D7E0095AD07 /* XWInteractiveTransition.m */; };
+		B4C8075E1D1D3DAB00F26624 /* NSMutableArray+LSAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C8075D1D1D3DAB00F26624 /* NSMutableArray+LSAdd.m */; };
 		B4DBFF561CD6ECF30098C0DB /* ShareDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DBFF551CD6ECF30098C0DB /* ShareDetailsViewController.m */; };
 		B4DBFF591CD84C2B0098C0DB /* FindTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4DBFF581CD84C2B0098C0DB /* FindTableViewController.m */; };
 		B4DBFF5B1CD84CCC0098C0DB /* ShareStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DBFF5A1CD84CCC0098C0DB /* ShareStoryboard.storyboard */; };
@@ -99,6 +101,8 @@
 /* Begin PBXFileReference section */
 		170FD6917A64160C11F68FA5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		99573D71F6898B3335A22EB7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B4144DF91D1E3CAE0074D3E9 /* HSCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSCButton.h; sourceTree = "<group>"; };
+		B4144DFA1D1E3CAE0074D3E9 /* HSCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSCButton.m; sourceTree = "<group>"; };
 		B425F0231CF6A532004159CB /* LSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSView.h; sourceTree = "<group>"; };
 		B425F0241CF6A532004159CB /* LSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSView.m; sourceTree = "<group>"; };
 		B46DD2411CE82D9F000238E5 /* LSRotateGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSRotateGestureRecognizer.h; sourceTree = "<group>"; };
@@ -179,6 +183,8 @@
 		B4C2EFF11CE32A770095AD07 /* TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetViewController.m; sourceTree = "<group>"; };
 		B4C2EFF61CE32D7E0095AD07 /* XWInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XWInteractiveTransition.h; sourceTree = "<group>"; };
 		B4C2EFF71CE32D7E0095AD07 /* XWInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XWInteractiveTransition.m; sourceTree = "<group>"; };
+		B4C8075C1D1D3DAB00F26624 /* NSMutableArray+LSAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+LSAdd.h"; sourceTree = "<group>"; };
+		B4C8075D1D1D3DAB00F26624 /* NSMutableArray+LSAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+LSAdd.m"; sourceTree = "<group>"; };
 		B4DBFF541CD6ECF30098C0DB /* ShareDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareDetailsViewController.h; sourceTree = "<group>"; };
 		B4DBFF551CD6ECF30098C0DB /* ShareDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareDetailsViewController.m; sourceTree = "<group>"; };
 		B4DBFF571CD84C2B0098C0DB /* FindTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindTableViewController.h; sourceTree = "<group>"; };
@@ -371,6 +377,8 @@
 				B48F88A01CDDC26000620DCB /* NSString+LSAdd.m */,
 				B4B327281CEB352300E14FED /* UILabel+LSAdd.h */,
 				B4B327291CEB352300E14FED /* UILabel+LSAdd.m */,
+				B4C8075C1D1D3DAB00F26624 /* NSMutableArray+LSAdd.h */,
+				B4C8075D1D1D3DAB00F26624 /* NSMutableArray+LSAdd.m */,
 			);
 			path = categorys;
 			sourceTree = "<group>";
@@ -605,6 +613,8 @@
 		B4FFD11A1CD3662C0096FC49 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				B4144DF91D1E3CAE0074D3E9 /* HSCButton.h */,
+				B4144DFA1D1E3CAE0074D3E9 /* HSCButton.m */,
 				B48F88911CDDA0FF00620DCB /* categorys */,
 				B48F88691CD9DF8800620DCB /* Reachability */,
 				B4DBFF641CD85DFE0098C0DB /* request */,
@@ -856,6 +866,7 @@
 				B47E765A1CD1A123006AA491 /* AppDelegate.m in Sources */,
 				B4B3272A1CEB352300E14FED /* UILabel+LSAdd.m in Sources */,
 				B4DBFF881CD87DD90098C0DB /* LSNavigationController.m in Sources */,
+				B4144DFB1D1E3CAE0074D3E9 /* HSCButton.m in Sources */,
 				B46DD2431CE82D9F000238E5 /* LSRotateGestureRecognizer.m in Sources */,
 				B46DD2491CE83FBE000238E5 /* TestSWTableViewController.m in Sources */,
 				B48F88641CD9946500620DCB /* RegisterViewController.m in Sources */,
@@ -867,6 +878,7 @@
 				B48F886F1CDB273B00620DCB /* ChatTableViewController.m in Sources */,
 				B46DD25E1CE8400D000238E5 /* SWLongPressGestureRecognizer.m in Sources */,
 				B4DBFF561CD6ECF30098C0DB /* ShareDetailsViewController.m in Sources */,
+				B4C8075E1D1D3DAB00F26624 /* NSMutableArray+LSAdd.m in Sources */,
 				B4DBFF791CD861550098C0DB /* LSNotification.m in Sources */,
 				B48F88821CDB5BDC00620DCB /* LSTextView.m in Sources */,
 				B4C2EFEC1CE32A3B0095AD07 /* LSPresentAnimatedTransitioning.m in Sources */,
@@ -1022,7 +1034,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = "/Users/rd-123/Desktop/PwdTest/PwdTest/Others/PwdTest-Prefix.h";
+				GCC_PREFIX_HEADER = "$(PODS_ROOT)/PwdTest/PwdTest/Others/PwdTest-Prefix.h";
 				INFOPLIST_FILE = PwdTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1044,7 +1056,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = "/Users/rd-123/Desktop/PwdTest/PwdTest/Others/PwdTest-Prefix.h";
+				GCC_PREFIX_HEADER = "$(PODS_ROOT)/PwdTest/PwdTest/Others/PwdTest-Prefix.h";
 				INFOPLIST_FILE = PwdTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -12,6 +12,7 @@
 #import "MoreViewController.h"
 #import <BmobSDK/Bmob.h>
 #import "TestRootViewController.h"
+#import "HSCButton.h"
 
 @interface LSTabBarController ()
 
@@ -31,6 +32,18 @@
     
     [self setup];
     
+    
+    HSCButton *tt = [[HSCButton alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
+    tt.backgroundColor = [UIColor greenColor];
+    tt.dragEnable = YES;
+    tt.layer.cornerRadius = 25;
+    tt.layer.borderWidth =2.f;
+    tt.layer.borderColor = [UIColor whiteColor].CGColor;
+    tt.layer.masksToBounds = YES;
+    
+    [self.view addSubview:tt];
+    [self.view bringSubviewToFront:tt];
+
     
 }
 
